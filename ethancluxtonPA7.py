@@ -4,9 +4,9 @@
 # CptS 111
 # Encryption Using the Logistic Map Function
 
-from gen_amp_seed-function import *
+from gen_amp_seed import *
 from Lab11Task5 import *
-from Lab11Task1 import 
+from Lab11Task1 import *
 def cipher_encrypt():
     password = input('Enter password: ')
     amp, seed = gen_amp_seed(password)
